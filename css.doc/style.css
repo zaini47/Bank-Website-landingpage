@@ -1,0 +1,167 @@
+:root{
+    --priamry: #554DDE;
+    --secendory: #6A6D9E;
+    --accent : #F44E77;
+    --seconday-dark: #16194F;
+    --seconday-light: #6A6D9E;
+    --stroke: #CAD6F1;
+    --back: #DCE2F0;
+}
+
+
+*{
+    outline: none;
+}
+
+body{
+    background-color: #F2F6FF;
+}
+
+.primary{
+    color: var(--priamry);
+}
+
+.secondary{
+    color: var(--secendory);
+}
+
+.accent{
+    color: var(--accent);
+}
+.accentbtn{
+    color: white;
+    border-radius: 20px;
+    background-color: var(--accent);
+
+}
+
+.strokebg{
+    background-color: transparent;
+    border:  1.5px solid var(--seconday-dark);
+    color: var(--seconday-dark);
+    border-radius: 10px;
+}
+
+.secondary-dark{
+    color: var(--seconday-dark);
+}
+.secondary-light{
+    color: var(--seconday-light);
+}
+.secondary-darkbtn{
+    color: white;
+    border-radius: 20px;
+    background-color: var(--seconday-dark);
+}
+
+.bg--light{
+    background-color: var(--back);
+}
+
+
+header{
+    background-image: url(../img/card-details/herobg.png);
+    background-size: cover;
+}
+nav{
+    z-index: 1000;
+}
+
+h1{
+    font-size: 60px;
+}
+p{
+    font-size: 20px;
+}
+
+h2{
+    font-size: 40px;
+}
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+h4{
+    font-size: 25px;
+}
+
+.rounding{
+    border-radius: 50px;
+}
+
+.roundin{
+    border-radius: 20px;
+}
+
+.imgset{
+    max-height: 80%;
+}
+
+
+/* -----------------------------------hero---------------------------*/
+
+.circle{
+    position: absolute;
+    top: 0%;
+    left: 34%;
+    max-height: 50%;
+}
+.commentdark{
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    max-height: 20%;
+}
+.donut{
+    position: absolute;
+    top: 90%;
+    right: 10%;
+    max-height: 15%;
+}
+.light1{
+    position: absolute;
+    top: 90%;
+    right: 48%;
+    max-height: 15%;
+}
+.light2{
+    position: absolute;
+    top: 86%;
+    right: 48%;
+    max-height: 15%;
+}
+
+
+
+@media (max-width: 425px) {
+    .circle{
+        top: 0%;
+        left: 45%;
+        max-height: 34%;
+    }
+    .commentdark{
+        top: 60%;
+        right: 15%;    
+        max-height: 9%;
+    }
+    .donut{
+        max-height: 9%;
+        top: 99%;
+        right: 6%;
+    }
+    .light1{
+        max-height: 8%;
+        top: 93%;
+        left: 2%;
+    }
+    
+    .light2{
+        max-height: 8%;
+        top: 90%;
+        left: 2%;
+    }
+}
